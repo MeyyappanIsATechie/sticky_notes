@@ -45,3 +45,18 @@
 .sticky-note:hover .delete-button {
   display: block;
 }
+.sticky-note .edit-button {
+  display: none;
+  position: absolute;
+  bottom: -40px;
+  right: 0;
+  background-color: blue;
+  color: white;
+  padding: 2px 5px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.sticky-note:hover .edit-button {
+  display: block;
+}

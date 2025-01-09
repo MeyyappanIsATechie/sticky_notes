@@ -8,6 +8,7 @@ function App() {
   const [input, setInput] = useState("");
   const [deletedNotes, setDeletedNotes] = useState([]);
   const containerRef = useRef();
+  
 
   const debouncedSetInput = useRef(debounce((v) => setInput(v), 30)).current;
 
